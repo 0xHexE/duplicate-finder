@@ -8,7 +8,7 @@ import (
 func ParseArgument() ArgumentResult {
 	var returnValue ArgumentResult
 	returnValue.MatchPercentage = 100
-	returnValue.Output = "output2.csv"
+	returnValue.Output = "output.csv"
 	argResult := arg.MustParse(&returnValue)
 	for _, key := range returnValue.MatchKeys {
 		if len(strings.Split(key, ":")) != 2 {

@@ -34,7 +34,7 @@ func main() {
 				}
 			}
 
-			isMatched := true
+			isMatched := len(matchedKeys) != 0
 
 			for _, v := range matchedKeys {
 				if v == false {
