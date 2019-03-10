@@ -1,7 +1,6 @@
 # For finding duplicates
  
  
- ### Find the duplicates in the CSV
-
- 
+### Usage
+`./duplicate-finder --inputfile INPUTFILE --matchfile MATCHFILE --matchkeys MATCHKEYS [--output OUTPUT] [--matchpercentage MATCHPERCENTAGE]`
  
